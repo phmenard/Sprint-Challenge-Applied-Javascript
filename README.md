@@ -30,18 +30,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+Document Object Model, an interface between the developer and the browser to create dynamic pages
+
 2. What is an event?
+
+An event is just that an event, if the mouse is over it's an event ... mouse mouve, click ect
 
 3. What is an event listener?
 
+A listener is a callback that listens for a certain event 'see above'
+
 4. Why would we convert a NodeList into an Array?
+
+to use the built in array functions
 
 5. What is a component?
 
+a seperate peice of a web page, built independently of anything else.
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
+* [*] Fork the project into your GitHub user account
+* [*] Clone the forked project into a directory on your machine
 * [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 * [ ] You are now ready to build this project with your preferred IDE
 
@@ -49,13 +59,13 @@ Edit this document to include your answers after each question. Make sure to lea
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
+* [*] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
 
-* [ ] Following the instructions in the `Header/index.js` file, create the Header component.
+* [*] Following the instructions in the `Header/index.js` file, create the Header component.
 
-* [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
+* [*] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
-* [ ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
+* [*] Following the instructions in the `Cards/index.js` file, create individual Cards components.
 
 ## Stretch Problems
 
@@ -67,4 +77,4 @@ Your stretch challenge is to write the functionality of a `Carousel` component. 
 
 * [ ] Create an 'infinite loop' carousel. In which as long as you click on an arrow, the array of images will loop over itself.
 
-* [ ] If you have finished the above, research `data attributes`. Implement data attributes within your tabs as well as your cards. Give the tabs functionality so that when they are clicked they filter the cards to only display the cards that contain that topic.
+* [*] If you have finished the above, research `data attributes`. Implement data attributes within your tabs as well as your cards. Give the tabs functionality so that when they are clicked they filter the cards to only display the cards that contain that topic.
